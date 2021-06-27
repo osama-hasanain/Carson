@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/_14sdp"
+    app:cardElevation="@dimen/_2sdp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/custom_menu_item_iv_photo"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+
+
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_cheaf"
+            app:civ_border_color="@color/border"
+            app:civ_border_width="@dimen/_3sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/custom_menu_item_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="title"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/custom_menu_item_tv_price"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/custom_menu_item_iv_photo"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="@dimen/_5sdp"/>
+
+        <TextView
+            android:id="@+id/custom_menu_item_tv_desc"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="64dp"
+            android:layout_marginRight="64dp"
+            android:text="desc"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            app:layout_constraintEnd_toStartOf="@+id/custom_menu_item_tv_price"
+            app:layout_constraintStart_toEndOf="@+id/custom_menu_item_iv_photo"
+            app:layout_constraintTop_toBottomOf="@+id/custom_menu_item_tv_title" />
+
+        <TextView
+            android:id="@+id/custom_menu_item_tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:background="@drawable/shape_custom_menu_item_price"
+            android:text="price"
+            android:textSize="@dimen/_15sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/custom_menu_item_img_plus"
+            android:layout_width="@dimen/_17sdp"
+            android:layout_height="@dimen/_17sdp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/shape_custom_menu_item_plus"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_icon_plus" />
+
+        <TextView
+            android:id="@+id/custom_menu_item_tv_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="0"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/custom_menu_item_img_plus"
+            app:layout_constraintEnd_toStartOf="@+id/custom_menu_item_img_plus"
+            app:layout_constraintTop_toTopOf="@+id/custom_menu_item_img_plus" />
+
+        <ImageView
+            android:id="@+id/custom_menu_item_img_minus"
+            android:layout_width="@dimen/_17sdp"
+            android:layout_height="@dimen/_17sdp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/shape_custom_menu_item_plus"
+            app:layout_constraintBottom_toBottomOf="@+id/custom_menu_item_img_plus"
+            app:layout_constraintEnd_toStartOf="@+id/custom_menu_item_tv_num"
+            app:layout_constraintTop_toTopOf="@+id/custom_menu_item_img_plus"
+            app:srcCompat="@drawable/ic_minus" />
+
+        <TextView
+            android:id="@+id/custom_menu_item_txt_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete from Menu"
+            android:textColor="@color/red"
+            android:fontFamily="@font/carrois_gothic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:visibility="gone"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

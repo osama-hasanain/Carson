@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_50sdp"
+    tools:context=".Activity.Register">
+
+
+
+    <FrameLayout
+        android:id="@+id/regester_img_ly"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/_20sdp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/regester_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="#fff"/>
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            app:srcCompat="@drawable/ic_edit"
+            android:background="@drawable/circle_background"
+            android:padding="@dimen/_2sdp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"/>
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/regester_et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/shape_login_enter_text"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/regester_et_email"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/regester_et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/shape_login_enter_text"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/regester_et_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/regester_et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/shape_login_enter_text"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/regester_et_password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/regester_et_repeat_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/shape_login_enter_text"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/regester_et_repeat_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/regester_btn_regester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@drawable/shape_login_btn2"
+        android:text="@string/login_btn2"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

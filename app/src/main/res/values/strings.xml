@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Cook</string>
+    <string name="login_input1">Enter your Email</string>
+    <string name="login_input2">Enter your Password</string>
+    <string name="login_btn1">LOGIN</string>
+    <string name="login_btn2">REGISTER</string>
+    <string name="regester_et_email">Enter your email</string>
+    <string name="regester_et_password">Enter your passwordl</string>
+    <string name="regester_et_repeat_password">Repeat your password</string>
+    <string name="table_custom_tv_table">Table</string>
+    <string name="fill_box"> Please fill the boxes in above </string>
+    <string name="login_success"> LOGIN SUCCESS</string>
+    <string name="login_fail"> LOGIN FAIL</string>
+    <string name="register_success"> REGISTER SUCCESS</string>
+    <string name="register_fail"> REGISTER FAIL</string>
+    <string name="no_user"> No user found </string>
+    <string name="equalling_password">Please allow a password with a password reset</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_image">Add Image</string>
+    <string name="regester_et_name">Enter your name</string>
+    <string name="profile">Profile</string>
+    <string name="order_for_you">Order for you :</string>
+    <string name="all_menu">All Menu :</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="send">Send</string>
+
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FA4209</color>
+    <color name="colorPrimaryDark">#A32C07</color>
+    <color name="colorAccent">#EC653C</color>
+    <color name="white">#ffff</color>
+    <color name="gray">#EEECEC</color>
+    <color name="green">#06C70D</color>
+    <color name="red">#EB0202</color>
+    <color name="Beige">#FFFDF1</color>
+    <color name="white_light">#E01B1B</color>
+    <color name="toolBar">#E22315</color>
+    <color name="border">#A32C07</color>
+
+
+</resources>
